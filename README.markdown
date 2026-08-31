@@ -4,5 +4,5 @@ Use with https://github.com/arkenfox/user.js/
 
 TL;DR: In any Firefox profile directory…
 - `git --git-dir=/dev/null clone --depth=1 https://github.com/arkenfox/user.js.git`
-- `git clone https://github.com/okeeblow/user.js`
+- `git clone https://github.com/okeeblow/user.js.git`
 - `./updater`
