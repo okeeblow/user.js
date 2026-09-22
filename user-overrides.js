@@ -57,4 +57,4 @@ user_pref("browser.ml.linkPreview.enabled", false);
 user_pref("signon.showAutoCompleteFooter", false);
 
 // Disable annoying nanny interstitial when accessing an HTTP-non-TLS site
-user_pref("browser.fixup.fallback-to-https", false");
+user_pref("browser.fixup.fallback-to-https", false);
