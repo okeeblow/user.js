@@ -58,3 +58,8 @@ user_pref("signon.showAutoCompleteFooter", false);
 
 // Disable annoying nanny interstitial when accessing an HTTP-non-TLS site
 user_pref("browser.fixup.fallback-to-https", false);
+
+// Use Windows' accent color for URLbar text selection, active tab highlight, form items, etc.
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1775310
+user_pref("widget.windows.uwp-system-colors.enabled"), true);
+user_pref("widget.windows.uwp-system-colors.highlight-accent"), true);
