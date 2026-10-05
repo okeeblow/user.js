@@ -1,0 +1,53 @@
+/* 
+Hide horizontal tabs at the top of the window #1349
+https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules
+Enable Titlebar instead:
+In about:config, set browser.tabs.drawInTitlebar to true.
+or: hamburger menu -> Customize, check "Title Bar" at the bottom.
+(When hiding, in private mode, no tabs?!)
+*/
+#TabsToolbar {
+    visibility: collapse !important;
+}
+
+/* As little space before the tab name as possible.
+   The fold/unfold icon is not affected. */
+.tab:not(.pinned) {
+  padding-left: 0px !important; /* !important is required when there are enough tabs to cause a scrollbar */
+}
+
+/* Less visible tab dividers. 
+   A black border with a very low alpha slightly darkens any color. */
+.tab {
+  border: solid 1px #00000012; 
+}
+
+.tab {
+  height: 20px;
+}
+
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+  display: none;
+}
+
+#sidebar {
+  min-width: 100px !important;
+}
+
+#context-sendimage { display:none!important; }
+
+#sidebar-box {
+  min-width: 100px !important;
+}
+
+
+
+/* Remove Firefox Logo - Works on New Tab & Home Page */
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+    .logo-and-wordmark-wrapper,
+    .logo-and-wordmark,
+    .wordmark,
+    .logo {
+        display: none !important;
+    }
+}
