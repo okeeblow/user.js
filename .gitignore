@@ -3,5 +3,7 @@
 
 # But not these files...
 !.gitignore
+!chrome
+!configs-treestyletab@piro.sakura.ne.jp.json
 !user-overrides.js
 !README.markdown
