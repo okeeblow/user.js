@@ -63,3 +63,7 @@ user_pref("browser.fixup.fallback-to-https", false);
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1775310
 user_pref("widget.windows.uwp-system-colors.enabled"), true);
 user_pref("widget.windows.uwp-system-colors.highlight-accent"), true);
+
+// New Firefox v157 UI. Not automatically a hater, but no thanks;
+// I already have my UI customized the way I like with Tree Style Tab :)
+user_pref("browser.nova.enabled", false);
