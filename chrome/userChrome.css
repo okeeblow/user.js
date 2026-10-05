@@ -1,4 +1,9 @@
-/* 
+/*
+One must set "toolkit.legacyUserProfileCustomizations.stylesheets" to `true`
+before Firefox will apply this stylesheet!
+*/
+
+/*
 Hide horizontal tabs at the top of the window #1349
 https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules
 Enable Titlebar instead:
