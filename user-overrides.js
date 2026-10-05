@@ -66,4 +66,7 @@ user_pref("widget.windows.uwp-system-colors.highlight-accent"), true);
 
 // New Firefox v157 UI. Not automatically a hater, but no thanks;
 // I already have my UI customized the way I like with Tree Style Tab :)
+// https://github.com/piroor/treestyletab/issues/3978#issuecomment-5908035664
 user_pref("browser.nova.enabled", false);
+user_pref("sidebar.revamp", false;)
+user_pref("sidebar.visibility", "hide-launcher");

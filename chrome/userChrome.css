@@ -51,3 +51,9 @@ or: hamburger menu -> Customize, check "Title Bar" at the bottom.
         display: none !important;
     }
 }
+
+/*
+Remove Sidebar header on Firefox v157+
+https://github.com/piroor/treestyletab/issues/3978#issuecomment-5908035664
+*/
+#webextpanels-window #sidebar-panel-header { display: none !important; }
